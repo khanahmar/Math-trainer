@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #333333; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dd1818,
+    #333333
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dd1818,
+    #333333
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  flex-direction: column;
+  background-color: rgb(85, 85, 85);
+  border-radius: 4px;
+}
+
+h1 {
+  color: rgb(255, 202, 67);
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  font-family: cursive;
+  margin: 10px 20px;
+  background-color: rgb(241, 29, 68);
+  box-shadow: 0 0 5px 3px;
+}
+
+.ans {
+  font-size: 20px;
+  padding: 4px;
+  margin: 20px 0;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.submit {
+  font-size: 20px;
+  padding: 8px 14px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(45, 148, 45);
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+
+.submit:hover {
+  background-color: rgb(44, 182, 44);
+}
+
+.desc {
+  background-color: rgb(61, 61, 61);
+  width: 90%;
+  height: 8vh;
+  text-align: center;
+  padding-top: 8px;
+
+  font-size: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.new {
+  font-size: 20px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(220, 93, 46);
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  transition: 0.2s;
+  letter-spacing: 2px;
+}
+
+.new:hover {
+  background-color: rgb(194, 194, 194);
+  color: rgb(64, 64, 64);
+}
+
+.desc-right {
+  color: rgb(0, 195, 255);
+}
+
+.desc-wrong {
+  color: rgb(255, 61, 61);
+}
